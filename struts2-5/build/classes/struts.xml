@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+
+    <package name="default" namespace="/" extends="struts-default">
+
+		<!-- 配置使用 paramsPrepareParamsStack 作为默认的拦截器栈 -->
+		<!-- 修改 PrepareInterceptor 拦截器的 alwaysInvokePrepare 属性值为 false -->
+		<interceptors>
+		    <interceptor-stack name="atguigustack">
+		        <interceptor-ref name="paramsPrepareParamsStack">
+		            <param name="prepare.alwaysInvokePrepare">false</param>
+		        </interceptor-ref>
+		    </interceptor-stack>
+		</interceptors>
+ 
+		<default-interceptor-ref name="atguigustack"/>
+
+		<action name="emp-*" 
+			class="com.atguigu.struts2.app.EmployeeAction"
+			method="{1}">
+			<result name="{1}">/emp-{1}.jsp</result>
+			<result name="success" type="redirectAction">emp-list</result>	
+		</action>
+		
+		<action name="emp-list"
+			class="com.atguigu.struts2.app.EmployeeAction"
+			method="list">
+			<result name="list">/emp-list.jsp</result>	
+		</action>
+			   
+    </package>
+
+
+</struts>

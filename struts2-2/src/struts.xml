@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	  <!-- 
+	  	package: 包。 struts2 使用package 来组织模块
+	  	name 属性： 必须。 用于其他的包应用当前包
+	  	extends： 当前包继承哪个包， 继承的， 即可以继承其中所有配置， 
+	  	通常情况下继承 struts-default
+	  	
+	  	namespace 属性是可选的, 如果它没有给出, 则以 “/” 为默认值.
+	  	 若 namespace 有一个非默认值, 则要想调用这个包里的Action, 
+	  	 就必须把这个属性所定义的命名空间添加到有关的 URI 字符串里
+	   -->
+	  <package name="helloWorld" extends="struts-default">
+	  	
+	  	<!-- 
+	  		配置一个action： 一个struts2 的请求就是一个action
+	  		name: 对应一个struts2 的请求的名字（或对应一个servletPath， 但去掉/ 和扩展名），不包含扩展名
+	  		class 默认： com.opensymphony.xwork2.ActionSupport
+	  		method 默认： execute
+	  		result： 结果 	
+	  	 -->
+	  	<action name="product-input">
+	  		<!-- 
+	  			一个action 节点可能有多个result 子节点 用name 来区分
+	  			name： 表示一个result 和action 方法的返回值对应， 默认为success 
+	  			type： 表示结果类型， 默认为dispatcher（转发到结果）
+	  		 -->
+	  		<result>/WEB-INF/pages/input.jsp</result>
+	  	</action>
+	  	
+	  	<action name="product-save" class="com.ben.structs2.helloworld.Product"
+	  		method="save">
+	  		<result name="details">/WEB-INF/pages/details.jsp</result>
+	  	</action>
+	  	<action name="test" class="com.ben.structs2.helloworld.Product"
+	  		method="test">
+	  		<result>/index.jsp</result>
+	  	</action>
+	  </package>
+
+</struts>

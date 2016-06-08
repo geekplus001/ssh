@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+
+    <package name="default" namespace="/" extends="struts-default">
+
+		<action name="testConversion" class="com.atguigu.struts2.app.ConversionAction">
+			<result>/success.jsp</result>
+			<result name="input">/index.jsp</result>
+		</action>
+		
+		<action name="testComplextProperty" class="com.atguigu.struts2.app.TestComplextPropertyAction">
+			<result>/success.jsp</result>
+		</action>
+		
+		<action name="testConversion2" class="com.atguigu.struts2.app.TestCollectionAction">
+			<result>/success.jsp</result>
+		</action>
+			
+    </package>
+
+
+</struts>

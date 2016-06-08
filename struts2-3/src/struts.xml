@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	<!-- 配置Struts2 可以受理的请求的扩展名 -->
+	<constant name="struts.action.extension" value="action,do"></constant>
+
+    <package name="default" namespace="/" extends="struts-default">
+		<action name="TestActionContext"
+			class="com.ben.struts2.action.TestActionContextAction">
+			<result>/test-actionContext.jsp</result>	
+		</action>
+		<action name="TestAware"
+			class="com.ben.struts2.action.TestAwareAction">
+			<result>/test-aware.jsp</result>	
+		</action>
+		<action name="TestServletActionContext"
+			class="com.ben.struts2.action.TestServletActionContextAction">
+			<result>/success.jsp</result>	
+		</action>
+		<action name="TestServletAware"
+			class="com.ben.struts2.action.TestServletAwareAction">
+			<result>/success2.jsp</result>	
+		</action>
+		<action name="login-ui">
+			<result>/login.jsp</result>
+		</action>
+		<action name="user-login" class="com.ben.struts2.action.UserAction">
+			<result name="login-success">/login-success.jsp</result>
+		</action>
+		<action name="logout" class="com.ben.struts2.action.UserAction"
+				method="logout">
+			<result name="logout-success">/login.jsp</result>
+		</action>
+		<action name="testActionSupport">
+			<result>/testActionSupport.jsp</result>
+		</action>
+		<action name="testResult" class="com.ben.struts2.action.TestResultAction">
+			<result name="success" type="dispatcher">/success.jsp</result>
+			<result name="login" type="redirect">/login.jsp</result>
+			<!-- 重定向到一个Action -->
+			<!-- 
+			<result name="index" type="redirectAction">
+				<param name="actionName">testAction</param>
+				<param name="namespace">/ben</param>
+			</result>
+			 -->
+			 <!-- 这样也可以重定向到一个Action -->
+			 <result name="index" type="redirect">/ben/testAction.do</result>
+			<!-- 转发到一个Action -->
+			<!-- 
+			<result name="test" type="chain">
+				<param name="actionName">testAction</param>
+				<param name="namespace">/ben</param>
+			</result>
+			 -->
+			 <!-- 不能通过type=dispatcher 方式转发到一个Action -->
+			 <result name="test">/ben/testAction.do</result>
+		</action>
+    </package>
+	<package name="testPackage"  namespace="/ben" extends="struts-default">
+		<action name="testAction" class="com.ben.struts2.action.TestAction">
+			<result>/success.jsp</result>
+		</action>
+	</package>
+
+
+</struts>

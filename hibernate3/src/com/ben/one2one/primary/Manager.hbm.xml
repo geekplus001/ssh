@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2016-4-10 16:04:07 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.ben.one2one.primary.Manager" table="MANAGERS">
+        <id name="mgrId" type="java.lang.Integer">
+            <column name="MGR_ID" />
+            <generator class="native" />
+        </id>
+        <property name="mgrName" type="java.lang.String">
+            <column name="MGR_NAME" />
+        </property>
+        <!-- 映射1-1的关联关系： 在对应的数据表中已经有外键了， 当前持久化类使用one-to-one 进行映射 -->
+      	
+        <one-to-one name="dept" 
+        class="com.ben.one2one.primary.Department"></one-to-one>
+    </class>
+</hibernate-mapping>

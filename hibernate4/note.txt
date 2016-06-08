@@ -1,0 +1,42 @@
+使用hibernate 二级缓存的步骤：
+
+（1） 加入二级缓存插件的jar 包及配置文件
+
+I. 复制hibernate-release-4.2.21.Final\lib\optional\ehcache 中jar 包
+II. 复制hibernate-release-4.2.21.Final\project\etc cache.xml 文件
+
+（2） 配置hibernate.cfg.xml
+
+I. 配置启用hibernate 的二级缓存
+<property name="hibernate.cache.region.factory_class"></property>
+
+II. 配置hibernate 二级缓存使用的产品
+<property name="hibernate.cache.region.factory_class">org.hibernate.cache.ehcache.EhCacheRegionFactory</property>
+
+III. 配置对哪些类使用hibernate 的二级缓存
+<class-cache usage="read-write" class="com.ben.hibernate.entities.Employee"/>
+
+实际上也可以在.hbm.xml 文件中配置对哪些类使用二级缓存， 及二级缓存的策略是什么
+
+
+集合级别的二级缓存
+
+<collection-cache usage="read-write" collection="com.ben.hibernate.entities.Department.emps"/>
+
+也可以在.hbm.xml 文件中配置
+
+注意： 还需要配置集合中的元素对应的持久化类也使用二级缓存， 否则会多出n 条SQL 语句
+
+
+（3） ehcache 的配置文件： eache.xml
+
+（4） 查询缓存: 默认情况下， 设置的缓存对HQL 及QBC 查询时无效，但可以通过以下方式使其有效
+
+I. 在hibernate 配置文件中声明开启查询缓存
+
+<property name="cache.use_query_cache">true</property>
+
+II. 调用Query 或Criteria 的 setCacheable(true) 方法
+
+III. 查询缓存依赖于二级缓存 
+

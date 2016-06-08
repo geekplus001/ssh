@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	<!-- 打开允许动态方法调用的开关 -->
+	<!-- <constant name="struts.enable.DynamicMethodInvocation" value="true"></constant> -->
+	<!-- 打开静态方法调用的限制 -->
+	<constant name="struts.ognl.allowStaticMethodAccess" value="true"></constant>
+	
+    <package name="default" namespace="/" extends="struts-default">
+		 <!-- 位置固定这样写 -->
+		  <global-results>
+		 		<result></result>
+		  </global-results>
+  		  <global-exception-mappings>
+		 		<exception-mapping result="" exception=""></exception-mapping>
+		  </global-exception-mappings>
+		
+		<action name="UserAction-*" class="com.ben.struts2.UserAction"
+				method="{1}">
+			<result name="{1}-success">/success.jsp</result>
+		</action>
+		
+		<!-- 
+		<action name="UserAction-update" class="com.ben.struts2.UserAction"
+				method="update">
+			<result name="update-success">/success.jsp</result>
+		</action>
+		
+		<action name="UserAction-delete" class="com.ben.struts2.UserAction"
+				method="delete">
+			<result name="delete-success">/success.jsp</result>
+		</action>
+		
+		<action name="UserAction-query" class="com.ben.struts2.UserAction"
+				method="query">
+			<result name="query-success">/success.jsp</result>
+		</action>
+		 -->
+		 
+		 <action name="testDynamicMehodInvocation" class="com.ben.struts2.DynamicMethodInvocation"
+		 	method="save">
+		 	<result>/success.jsp</result>
+		 </action>
+		
+		<action name="product-input">
+			<result>/input.jsp</result>
+		</action>
+		
+		<action name="product-save" class="com.ben.struts2.valuestack.Product"
+		 	method="save">
+		 	<exception-mapping result="input" exception="java.lang.ArithmeticException"></exception-mapping>
+		 	<result name="input">/input.jsp</result>
+		 	<result>/details.jsp</result>
+		 </action>
+		 <action name="testTag" class="com.ben.struts2.valuestack.Product"
+		 	method="testTag">
+		 	<result>/common-tag.jsp</result>
+		 </action>
+    </package>
+    
+</struts>

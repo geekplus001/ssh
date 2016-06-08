@@ -1,0 +1,35 @@
+content_assist_autoactivation_triggers_java=.qwertyuiopasdfghjklzxcvbnm
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.recommenders.calls.rcp.proposalCategory.templates\u0000org.eclipse.mylyn.java.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.recommenders.chain.rcp.proposalCategory.chain\u0000
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="org.hibernate.cfg.Configuration"><rhs name\="org.hibernate.cfg.Configuration"/></lhs><lhs name\="com.ben.hibernate.helloworld.News"><rhs name\="com.ben.hibernate.helloworld.News"/></lhs><lhs name\="java.util.Date"><rhs name\="java.sql.Date"/><rhs name\="java.util.Date"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="java.sql.Date"/><rhs name\="java.util.Date"/></lhs><lhs name\="java.sql.Date"><rhs name\="java.sql.Date"/></lhs><lhs name\="com.ben.hibernate.entries.News"><rhs name\="com.ben.hibernate.entries.News"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.io.FileInputStream"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.io.FileInputStream"/></lhs><lhs name\="java.io.InputStream"><rhs name\="java.io.FileInputStream"/></lhs><lhs name\="com.ben.hibernate.entries.Worker"><rhs name\="com.ben.hibernate.entries.Worker"/></lhs><lhs name\="com.ben.hibernate.entries.Pay"><rhs name\="com.ben.hibernate.entries.Pay"/></lhs><lhs name\="com.ben.hibernate.entries.n21.Customer"><rhs name\="com.ben.hibernate.entries.n21.Customer"/></lhs><lhs name\="com.ben.hibernate.entries.n21.Order"><rhs name\="com.ben.hibernate.entries.n21.Order"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.HashSet"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.HashSet"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.Set"><rhs name\="java.util.HashSet"/></lhs><lhs name\="com.ben.one2one.foreign.Department"><rhs name\="com.ben.one2one.foreign.Department"/></lhs><lhs name\="com.ben.one2one.foreign.Manager"><rhs name\="com.ben.one2one.foreign.Manager"/></lhs><lhs name\="com.ben.n2n.Category"><rhs name\="com.ben.n2n.Category"/></lhs><lhs name\="com.ben.n2n.Item"><rhs name\="com.ben.n2n.Item"/></lhs><lhs name\="com.ben.subclass.Person"><rhs name\="com.ben.subclass.Person"/><rhs name\="com.ben.subclass.Student"/></lhs><lhs name\="com.ben.subclass.Student"><rhs name\="com.ben.subclass.Student"/></lhs><lhs name\="com.ben.strategy.Order"><rhs name\="com.ben.strategy.Order"/></lhs><lhs name\="com.ben.hibernate.entities.Department"><rhs name\="com.ben.hibernate.entities.Department"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="org.hibernate.criterion.Order"><rhs name\="org.hibernate.criterion.Order"/></lhs><lhs name\="com.ben.hibernate.hibernate.HibernateUtils"><rhs name\="com.ben.hibernate.hibernate.HibernateUtils"/></lhs><lhs name\="com.ben.hibernate.dao.DepartmentDao"><rhs name\="com.ben.hibernate.dao.DepartmentDao"/></lhs><lhs name\="com.ben.structs2.helloworld.Product"><rhs name\="com.ben.structs2.helloworld.Product"/></lhs><lhs name\="com.opensymphony.xwork2.ActionContext"><rhs name\="com.opensymphony.xwork2.ActionContext"/></lhs><lhs name\="com.ben.struts2.valuestack.Test"><rhs name\="com.ben.struts2.valuestack.Test"/></lhs><lhs name\="com.ben.spring.beans.HelloWorld"><rhs name\="com.ben.spring.beans.HelloWorld"/></lhs><lhs name\="org.springframework.core.env.EnvironmentCapable"><rhs name\="org.springframework.context.support.ClassPathXmlApplicationContext"/></lhs><lhs name\="org.springframework.beans.factory.ListableBeanFactory"><rhs name\="org.springframework.context.support.ClassPathXmlApplicationContext"/></lhs><lhs name\="org.springframework.beans.factory.HierarchicalBeanFactory"><rhs name\="org.springframework.context.support.ClassPathXmlApplicationContext"/></lhs><lhs name\="org.springframework.context.MessageSource"><rhs name\="org.springframework.context.support.ClassPathXmlApplicationContext"/></lhs><lhs name\="org.springframework.context.ApplicationEventPublisher"><rhs name\="org.springframework.context.support.ClassPathXmlApplicationContext"/></lhs><lhs name\="org.springframework.core.io.support.ResourcePatternResolver"><rhs name\="org.springframework.context.support.ClassPathXmlApplicationContext"/></lhs><lhs name\="org.springframework.beans.factory.BeanFactory"><rhs name\="org.springframework.context.support.ClassPathXmlApplicationContext"/></lhs><lhs name\="org.springframework.core.io.ResourceLoader"><rhs name\="org.springframework.context.support.ClassPathXmlApplicationContext"/></lhs><lhs name\="org.springframework.context.ApplicationContext"><rhs name\="org.springframework.context.support.ClassPathXmlApplicationContext"/></lhs><lhs name\="com.ben.spring.beans.collection.Person"><rhs name\="com.ben.spring.beans.collection.Person"/></lhs></history>
+content_assist_number_of_computers=30
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+fontPropagated=true
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.ui.editor.tab.width=
+org.eclipse.jdt.ui.formatterprofiles.version=12
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+org.eclipse.jdt.ui.text.code_templates_migrated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.templates_migrated=true
+org.eclipse.jdt.ui.visibility.order=B,V,R,D,
+org.eclipse.jface.textfont=1|Consolas|12.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
+outlinesortoption=T,SF,SI,SM,F,I,C,M,
+proposalOrderMigrated=true
+sourceHoverBackgroundColor=255,255,225
+spelling_ignore_ampersand_in_properties=true
+spelling_ignore_digits=true
+spelling_ignore_java_strings=true
+spelling_ignore_mixed=true
+spelling_ignore_non_letters=true
+spelling_ignore_sentence=true
+spelling_ignore_single_letters=true
+spelling_ignore_upper=true
+spelling_ignore_urls=true
+spelling_locale_initialized=true
+spelling_user_dictionary_encoding=
+tabWidthPropagated=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

@@ -1,0 +1,121 @@
+5. result: 
+
+（1） result 是action 节点的子节点
+
+（2） result 代表action 方法执行后， 可能去的一个目的地
+
+（3） 一个action 节点可以配置多个result 节点
+
+（4） result 的name 属性值对应着action 方法可能有的一个返回值
+<action name="testResult" class=" com.ben.struts2.action.TestResultAction">
+		<result name="success">/success.jsp</result>
+		<result name="login">/login.jsp</result>
+		<result name="index">/index.jsp</result>
+</action>
+（5） result 的另一个属性是type ： 表示结果的响应类型
+
+（6） result 的type 属性值在struts-default 包的result-types 节点的name 属性中定义
+常用的有：
+> dispatcher : 转发
+> redirect ： 重定向
+> redirectAction ： 重定向到一个Action 
+	注意： 通过redirect 的响应类型也可以便捷的实现redirectAction 的功能
+	
+	<!-- 重定向到一个Action -->
+			<!-- 
+			<result name="index" type="redirectAction">
+				<param name="actionName">testAction</param>
+				<param name="namespace">/ben</param>
+			</result>
+			 -->
+			 <!-- 这样也可以重定向到一个Action -->
+			 <result name="index" type="redirect">/ben/testAction.do</result>
+	
+> chain ： 转发到一个Action 
+	注意： 不能通过type=dispatcher 方式转发到一个Action
+	
+	<!-- 转发到一个Action -->
+			<!-- 
+			<result name="test" type="chain">
+				<param name="actionName">testAction</param>
+				<param name="namespace">/ben</param>
+			</result>
+			 -->
+			 <!-- 不能通过type=dispatcher 方式转发到一个Action -->
+			 <result name="test">/ben/testAction.do</result>
+	
+(> stream ： 文件下载) 
+
+4. ActionSupport
+
+（1） ActionSupport 是默认的Action 类
+
+<action name="testActionSupport">
+	<result>/testActionSupport.jsp</result>
+</action>
+
+等同于
+
+<action name="testActionSupport" class="com.opensymphony.xwork2.ActionSupport"
+		method="execute">
+	<result>/testActionSupport.jsp</result>
+</action>
+
+（2） 在手工完成字段验证， 显示错误消息， 国际化等情况下， 推荐继承ActionSupport 接口
+
+3. 关于Struts2 请求的扩展名问题
+
+（1） org.apache.struts2 包下边的default.properties 中配置了Struts2 应用的一些常量
+
+（2） struts.acion.extension 定义了当前Struts2 应用可以接受的请求的扩张名
+
+（3） 可以再struts2.xml 的配置文件中修改
+<constant name="struts.action.extension" value="action,do"></constant>
+
+2. 在Action 中访问  WEB 资源：
+
+（1） 什么是 WEB 资源？
+
+	HttpServletRequest， HttpSession， ServletContext 等原生的Servlet API
+
+（2） 为什么访问WEB 资源？
+	
+	B\S 的应用的Controller 中必然要访问WEB 资源： 向域对象中读写属性， 读写Cookie， 获取realPath...
+	
+（3） 如何访问？
+
+	I. 和Servlet API 解耦的方式： 只能访问有限的Servlet API 对象， 且只能访问其有限的方法（读取请求参数， 读写域对象的属性， 使session 失效）
+	
+		> 使用ActionContext
+		
+		> 实现XxxAware 接口
+		
+		> 若一个Action 类中有多个action 方法，且多个方法都需要使用域对象的Map 或 Parameters 
+		  建议使用XxxAware 接口方式
+		  
+		> session 对应的Map 实际上是SessionMap 类型的。 强转后若调用其invalidate（） 方法，可以使其ssesion 失效
+	
+	II. 和Servlet API 耦合的方式： 可以访问更多的Servlet API 对象， 且可以调用其原生的方法
+		
+		> 使用ServletActionContext
+		
+		> 实现ServletXxxAware 接口
+
+1. 复习搭建Struts2 的开发环境： 三个步骤
+
+2. action VS Action 类
+
+（1） action： 代表一个Struts2 的请求
+
+（2） Action 类： 能够处理Struts2 请求的类
+
+	> 属性的名字必须遵守与 JavaBeans 属性名相同的命名规则. 
+	属性的类型可以是任意类型. 从字符串到非字符串(基本数据库类型)之间的数据转换可以自动发生
+	
+	> 必须有一个不带参的构造器， 通过反射创建实例
+	
+ 	> 至少有一个供 struts 在执行这个 action 时调用的方法
+ 	
+	> 同一个 Action 类可以包含多个 action 方法.
+	 
+	> Struts2 会为每一个 HTTP 请求创建一个新的 Action 实例， 即Action 不是单例的， 是线程安全的

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2016-5-1 14:41:54 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.ben.hibernate.entities.Department" table="DEPARTMENT">
+    
+    <!-- 
+    <cache usage="read-write"/>
+     -->
+        <id name="id" type="java.lang.Integer">
+            <column name="ID" />
+            <generator class="native" />
+        </id>
+        
+        <property name="name" type="java.lang.String">
+            <column name="NAME" />
+        </property>
+        
+        <set name="emps" table="EMPLOYEE" inverse="true" lazy="true">
+        
+      	    <!-- 
+        	<cache usage="read-write"/>
+        	-->
+            <key>
+                <column name="DEPT_ID" />
+            </key>
+            <one-to-many class="com.ben.hibernate.entities.Employee" />
+        </set>
+        
+    </class>
+</hibernate-mapping>

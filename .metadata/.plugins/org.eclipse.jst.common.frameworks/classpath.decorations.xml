@@ -1,0 +1,12 @@
+<classpath>
+  <container id="struts2-3!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="F:/SSH/ssh/struts2-3/WebContent/WEB-INF/lib/xwork-core-2.3.24.1.jar">
+      <source-attachment-path>F:/安装包/libs/SSH/struts-2.3.24.1-all.zip</source-attachment-path>
+    </entry>
+  </container>
+  <container id="struts2-2!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="F:/SSH/ssh/struts2-2/WebContent/WEB-INF/lib/xwork-core-2.3.24.1.jar">
+      <source-attachment-path>F:/安装包/libs/SSH/struts-2.3.24.1-all.zip</source-attachment-path>
+    </entry>
+  </container>
+</classpath>

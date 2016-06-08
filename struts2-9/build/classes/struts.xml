@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	
+	<!-- 配置国际化资源文件 -->
+	<constant name="struts.custom.i18n.resources" value="i18n"></constant>
+	
+    <package name="default" namespace="/" extends="struts-default">
+		
+		<interceptors>
+			
+			<interceptor name="hello" class="com.atguigu.struts2.interceptors.MyInterceptor"></interceptor>
+		
+			<interceptor-stack name="atguigustack">
+				<interceptor-ref name="defaultStack">
+					<param name="fileUpload.maximumSize">2097152</param>
+					<!--  	
+					<param name="fileUpload.allowedTypes">text/html,text/xml</param>
+					<param name="fileUpload.allowedExtensions">html,dtd,xml</param>
+					-->
+				</interceptor-ref>
+			</interceptor-stack>
+			
+		</interceptors>
+		
+		<default-interceptor-ref name="atguigustack"></default-interceptor-ref>
+		
+		<action name="testUpload" 
+			class="com.atguigu.struts2.upload.app.UploadAction">
+			<result>/success.jsp</result>
+			<result name="input">/upload.jsp</result>
+		</action>
+		
+		<action name="testDownload" class="com.atguigu.struts2.download.app.DownLoadAction">
+			<result type="stream">
+				<param name="bufferSize">2048</param>
+			</result>
+		</action>
+		
+		<action name="testToken" class="com.atguigu.struts2.token.app.TokenAction">
+			<interceptor-ref name="hello"></interceptor-ref>
+			<interceptor-ref name="tokenSession"></interceptor-ref>
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<result>/success.jsp</result>
+			<result name="invalid.token">/token-error.jsp</result>
+		</action>
+					
+    </package>
+
+
+</struts>

@@ -1,0 +1,508 @@
+
+5月 03, 2016 14:59:11.52 NEW SESSION
+5月 03, 2016 14:59:11.52 1462258751491	addons.xpi	WARN	Problem getting last modified time for D:\莽聛芦莽聥聬\browser\features\e10srollout@mozilla.org.xpi: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.lastModifiedTime]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: recursiveLastModifiedTime :: line 1892"  data: no] Stack trace: recursiveLastModifiedTime()@resource://gre/modules/addons/XPIProvider.jsm:1892 < getModTime()@resource://gre/modules/addons/XPIProvider.jsm:2040 < syncWithDB()@resource://gre/modules/addons/XPIProvider.jsm:2102 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:2178 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3642 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2667 < callProvider()@resource://gre/modules/AddonManager.jsm:227 < _startProvider()@resource://gre/modules/AddonManager.jsm:833 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:1016 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:2783 < amManager.prototype.observe()@resource://gre/components/addonManager.js:56
+5月 03, 2016 14:59:11.71 1462258751545	addons.xpi	WARN	Can't get modified time of D:\莽聛芦莽聥聬\browser\features\e10srollout@mozilla.org.xpi: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.lastModifiedTime]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: getModTime :: line 2066"  data: no] Stack trace: getModTime()@resource://gre/modules/addons/XPIProvider.jsm:2066 < syncWithDB()@resource://gre/modules/addons/XPIProvider.jsm:2102 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:2178 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3642 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2667 < callProvider()@resource://gre/modules/AddonManager.jsm:227 < _startProvider()@resource://gre/modules/AddonManager.jsm:833 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:1016 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:2783 < amManager.prototype.observe()@resource://gre/components/addonManager.js:56
+5月 03, 2016 14:59:11.71 1462258751706	addons.xpi	WARN	Problem getting last modified time for D:\莽聛芦莽聥聬\browser\features\firefox@getpocket.com.xpi: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.lastModifiedTime]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: recursiveLastModifiedTime :: line 1892"  data: no] Stack trace: recursiveLastModifiedTime()@resource://gre/modules/addons/XPIProvider.jsm:1892 < getModTime()@resource://gre/modules/addons/XPIProvider.jsm:2040 < syncWithDB()@resource://gre/modules/addons/XPIProvider.jsm:2102 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:2178 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3642 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2667 < callProvider()@resource://gre/modules/AddonManager.jsm:227 < _startProvider()@resource://gre/modules/AddonManager.jsm:833 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:1016 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:2783 < amManager.prototype.observe()@resource://gre/components/addonManager.js:56
+5月 03, 2016 14:59:11.71 1462258751707	addons.xpi	WARN	Can't get modified time of D:\莽聛芦莽聥聬\browser\features\firefox@getpocket.com.xpi: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.lastModifiedTime]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: getModTime :: line 2066"  data: no] Stack trace: getModTime()@resource://gre/modules/addons/XPIProvider.jsm:2066 < syncWithDB()@resource://gre/modules/addons/XPIProvider.jsm:2102 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:2178 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3642 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2667 < callProvider()@resource://gre/modules/AddonManager.jsm:227 < _startProvider()@resource://gre/modules/AddonManager.jsm:833 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:1016 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:2783 < amManager.prototype.observe()@resource://gre/components/addonManager.js:56
+5月 03, 2016 14:59:11.71 1462258751709	addons.xpi	WARN	Problem getting last modified time for D:\莽聛芦莽聥聬\browser\features\loop@mozilla.org.xpi: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.lastModifiedTime]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: recursiveLastModifiedTime :: line 1892"  data: no] Stack trace: recursiveLastModifiedTime()@resource://gre/modules/addons/XPIProvider.jsm:1892 < getModTime()@resource://gre/modules/addons/XPIProvider.jsm:2040 < syncWithDB()@resource://gre/modules/addons/XPIProvider.jsm:2102 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:2178 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3642 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2667 < callProvider()@resource://gre/modules/AddonManager.jsm:227 < _startProvider()@resource://gre/modules/AddonManager.jsm:833 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:1016 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:2783 < amManager.prototype.observe()@resource://gre/components/addonManager.js:56
+5月 03, 2016 14:59:11.71 1462258751710	addons.xpi	WARN	Can't get modified time of D:\莽聛芦莽聥聬\browser\features\loop@mozilla.org.xpi: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.lastModifiedTime]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: getModTime :: line 2066"  data: no] Stack trace: getModTime()@resource://gre/modules/addons/XPIProvider.jsm:2066 < syncWithDB()@resource://gre/modules/addons/XPIProvider.jsm:2102 < processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:2178 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3642 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2667 < callProvider()@resource://gre/modules/AddonManager.jsm:227 < _startProvider()@resource://gre/modules/AddonManager.jsm:833 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:1016 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:2783 < amManager.prototype.observe()@resource://gre/components/addonManager.js:56
+5月 03, 2016 14:59:34.42 *************************
+5月 03, 2016 14:59:34.45 A coding exception was thrown and uncaught in a Task.
+5月 03, 2016 14:59:34.45 
+5月 03, 2016 14:59:34.46 Full message: TypeError: aAddon._installLocation is undefined
+5月 03, 2016 14:59:34.46 Full stack: shouldVerifySignedState@resource://gre/modules/addons/XPIProvider.jsm:1662:1
+5月 03, 2016 14:59:34.46 verifyZipSignedState@resource://gre/modules/addons/XPIProvider.jsm:1693:8
+5月 03, 2016 14:59:34.46 loadManifestFromZipReader<@resource://gre/modules/addons/XPIProvider.jsm:1426:29
+5月 03, 2016 14:59:34.46 TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+5月 03, 2016 14:59:34.48 TaskImpl@resource://gre/modules/Task.jsm:276:3
+5月 03, 2016 14:59:34.48 createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+5月 03, 2016 14:59:34.48 loadManifestFromZipFile<@resource://gre/modules/addons/XPIProvider.jsm:1451:26
+5月 03, 2016 14:59:34.48 TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+5月 03, 2016 14:59:34.48 TaskImpl@resource://gre/modules/Task.jsm:276:3
+5月 03, 2016 14:59:34.48 createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+5月 03, 2016 14:59:34.49 loadManifestFromFile@resource://gre/modules/addons/XPIProvider.jsm:1461:12
+5月 03, 2016 14:59:34.49 AddonInstaller.InstallerService._shouldInstall/<@resource://addoninstaller/installerService.js:341:49
+5月 03, 2016 14:59:34.49 safeCall@resource://gre/modules/AddonManager.jsm:179:5
+5月 03, 2016 14:59:34.49 makeSafe/<@resource://gre/modules/AddonManager.jsm:195:25
+5月 03, 2016 14:59:34.49 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:933:23
+5月 03, 2016 14:59:34.49 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:812:7
+5月 03, 2016 14:59:34.49 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:11
+5月 03, 2016 14:59:34.49 
+5月 03, 2016 14:59:34.49 *************************
+5月 03, 2016 14:59:34.49 *************************
+5月 03, 2016 14:59:34.49 A coding exception was thrown and uncaught in a Task.
+5月 03, 2016 14:59:34.49 
+5月 03, 2016 14:59:34.50 Full message: TypeError: aAddon._installLocation is undefined
+5月 03, 2016 14:59:34.50 Full stack: shouldVerifySignedState@resource://gre/modules/addons/XPIProvider.jsm:1662:1
+5月 03, 2016 14:59:34.50 verifyZipSignedState@resource://gre/modules/addons/XPIProvider.jsm:1693:8
+5月 03, 2016 14:59:34.50 loadManifestFromZipReader<@resource://gre/modules/addons/XPIProvider.jsm:1426:29
+5月 03, 2016 14:59:34.50 TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+5月 03, 2016 14:59:34.50 TaskImpl@resource://gre/modules/Task.jsm:276:3
+5月 03, 2016 14:59:34.50 createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+5月 03, 2016 14:59:34.50 loadManifestFromZipFile<@resource://gre/modules/addons/XPIProvider.jsm:1451:26
+5月 03, 2016 14:59:34.50 TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+5月 03, 2016 14:59:34.50 TaskImpl@resource://gre/modules/Task.jsm:276:3
+5月 03, 2016 14:59:34.50 createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+5月 03, 2016 14:59:34.50 loadManifestFromFile@resource://gre/modules/addons/XPIProvider.jsm:1461:12
+5月 03, 2016 14:59:34.50 AddonInstaller.InstallerService._shouldInstall/<@resource://addoninstaller/installerService.js:341:49
+5月 03, 2016 14:59:34.50 safeCall@resource://gre/modules/AddonManager.jsm:179:5
+5月 03, 2016 14:59:34.51 makeSafe/<@resource://gre/modules/AddonManager.jsm:195:25
+5月 03, 2016 14:59:34.51 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:933:23
+5月 03, 2016 14:59:34.51 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:812:7
+5月 03, 2016 14:59:34.51 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:11
+5月 03, 2016 14:59:34.51 
+5月 03, 2016 14:59:34.51 *************************
+5月 03, 2016 14:59:34.61 *************************
+5月 03, 2016 14:59:34.61 A coding exception was thrown and uncaught in a Task.
+5月 03, 2016 14:59:34.61 
+5月 03, 2016 14:59:34.61 Full message: TypeError: aAddon._installLocation is undefined
+5月 03, 2016 14:59:34.61 Full stack: shouldVerifySignedState@resource://gre/modules/addons/XPIProvider.jsm:1662:1
+5月 03, 2016 14:59:34.61 verifyZipSignedState@resource://gre/modules/addons/XPIProvider.jsm:1693:8
+5月 03, 2016 14:59:34.61 loadManifestFromZipReader<@resource://gre/modules/addons/XPIProvider.jsm:1426:29
+5月 03, 2016 14:59:34.62 TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+5月 03, 2016 14:59:34.62 TaskImpl@resource://gre/modules/Task.jsm:276:3
+5月 03, 2016 14:59:34.62 createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+5月 03, 2016 14:59:34.62 loadManifestFromZipFile<@resource://gre/modules/addons/XPIProvider.jsm:1451:26
+5月 03, 2016 14:59:34.62 TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+5月 03, 2016 14:59:34.62 TaskImpl@resource://gre/modules/Task.jsm:276:3
+5月 03, 2016 14:59:34.62 createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+5月 03, 2016 14:59:34.62 loadManifestFromFile@resource://gre/modules/addons/XPIProvider.jsm:1461:12
+5月 03, 2016 14:59:34.62 AddonInstaller.InstallerService._shouldInstall/<@resource://addoninstaller/installerService.js:341:49
+5月 03, 2016 14:59:34.62 safeCall@resource://gre/modules/AddonManager.jsm:179:5
+5月 03, 2016 14:59:34.62 makeSafe/<@resource://gre/modules/AddonManager.jsm:195:25
+5月 03, 2016 14:59:34.62 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:933:23
+5月 03, 2016 14:59:34.63 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:812:7
+5月 03, 2016 14:59:34.63 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:11
+5月 03, 2016 14:59:34.63 
+5月 03, 2016 14:59:34.63 *************************
+5月 03, 2016 14:59:34.63 *************************
+5月 03, 2016 14:59:34.64 A coding exception was thrown and uncaught in a Task.
+5月 03, 2016 14:59:34.64 
+5月 03, 2016 14:59:34.64 Full message: TypeError: aAddon._installLocation is undefined
+5月 03, 2016 14:59:34.64 Full stack: shouldVerifySignedState@resource://gre/modules/addons/XPIProvider.jsm:1662:1
+5月 03, 2016 14:59:34.64 verifyZipSignedState@resource://gre/modules/addons/XPIProvider.jsm:1693:8
+5月 03, 2016 14:59:34.64 loadManifestFromZipReader<@resource://gre/modules/addons/XPIProvider.jsm:1426:29
+5月 03, 2016 14:59:34.64 TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+5月 03, 2016 14:59:34.65 TaskImpl@resource://gre/modules/Task.jsm:276:3
+5月 03, 2016 14:59:34.65 createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+5月 03, 2016 14:59:34.65 loadManifestFromZipFile<@resource://gre/modules/addons/XPIProvider.jsm:1451:26
+5月 03, 2016 14:59:34.65 TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+5月 03, 2016 14:59:34.65 TaskImpl@resource://gre/modules/Task.jsm:276:3
+5月 03, 2016 14:59:34.65 createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+5月 03, 2016 14:59:34.65 loadManifestFromFile@resource://gre/modules/addons/XPIProvider.jsm:1461:12
+5月 03, 2016 14:59:34.65 AddonInstaller.InstallerService._shouldInstall/<@resource://addoninstaller/installerService.js:341:49
+5月 03, 2016 14:59:34.65 safeCall@resource://gre/modules/AddonManager.jsm:179:5
+5月 03, 2016 14:59:34.65 makeSafe/<@resource://gre/modules/AddonManager.jsm:195:25
+5月 03, 2016 14:59:34.65 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:933:23
+5月 03, 2016 14:59:34.65 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:812:7
+5月 03, 2016 14:59:34.65 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:11
+5月 03, 2016 14:59:34.65 
+5月 03, 2016 14:59:34.66 *************************
+5月 03, 2016 14:59:34.72 *************************
+5月 03, 2016 14:59:34.72 A coding exception was thrown and uncaught in a Task.
+5月 03, 2016 14:59:34.72 
+5月 03, 2016 14:59:34.73 Full message: TypeError: aAddon._installLocation is undefined
+5月 03, 2016 14:59:34.73 Full stack: shouldVerifySignedState@resource://gre/modules/addons/XPIProvider.jsm:1662:1
+5月 03, 2016 14:59:34.73 verifyZipSignedState@resource://gre/modules/addons/XPIProvider.jsm:1693:8
+5月 03, 2016 14:59:34.73 loadManifestFromZipReader<@resource://gre/modules/addons/XPIProvider.jsm:1426:29
+5月 03, 2016 14:59:34.73 TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+5月 03, 2016 14:59:34.73 TaskImpl@resource://gre/modules/Task.jsm:276:3
+5月 03, 2016 14:59:34.73 createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+5月 03, 2016 14:59:34.73 loadManifestFromZipFile<@resource://gre/modules/addons/XPIProvider.jsm:1451:26
+5月 03, 2016 14:59:34.73 TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+5月 03, 2016 14:59:34.73 TaskImpl@resource://gre/modules/Task.jsm:276:3
+5月 03, 2016 14:59:34.73 createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+5月 03, 2016 14:59:34.74 loadManifestFromFile@resource://gre/modules/addons/XPIProvider.jsm:1461:12
+5月 03, 2016 14:59:34.74 AddonInstaller.InstallerService._shouldInstall/<@resource://addoninstaller/installerService.js:341:49
+5月 03, 2016 14:59:34.74 safeCall@resource://gre/modules/AddonManager.jsm:179:5
+5月 03, 2016 14:59:34.74 makeSafe/<@resource://gre/modules/AddonManager.jsm:195:25
+5月 03, 2016 14:59:34.74 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:933:23
+5月 03, 2016 14:59:34.74 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:812:7
+5月 03, 2016 14:59:34.74 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:11
+5月 03, 2016 14:59:34.74 
+5月 03, 2016 14:59:34.74 *************************
+5月 03, 2016 14:59:34.75 *************************
+5月 03, 2016 14:59:34.75 A coding exception was thrown and uncaught in a Task.
+5月 03, 2016 14:59:34.75 
+5月 03, 2016 14:59:34.75 Full message: TypeError: aAddon._installLocation is undefined
+5月 03, 2016 14:59:34.75 Full stack: shouldVerifySignedState@resource://gre/modules/addons/XPIProvider.jsm:1662:1
+5月 03, 2016 14:59:34.75 verifyZipSignedState@resource://gre/modules/addons/XPIProvider.jsm:1693:8
+5月 03, 2016 14:59:34.76 loadManifestFromZipReader<@resource://gre/modules/addons/XPIProvider.jsm:1426:29
+5月 03, 2016 14:59:34.76 TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+5月 03, 2016 14:59:34.76 TaskImpl@resource://gre/modules/Task.jsm:276:3
+5月 03, 2016 14:59:34.76 createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+5月 03, 2016 14:59:34.76 loadManifestFromZipFile<@resource://gre/modules/addons/XPIProvider.jsm:1451:26
+5月 03, 2016 14:59:34.76 TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+5月 03, 2016 14:59:34.76 TaskImpl@resource://gre/modules/Task.jsm:276:3
+5月 03, 2016 14:59:34.76 createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+5月 03, 2016 14:59:34.76 loadManifestFromFile@resource://gre/modules/addons/XPIProvider.jsm:1461:12
+5月 03, 2016 14:59:34.76 AddonInstaller.InstallerService._shouldInstall/<@resource://addoninstaller/installerService.js:341:49
+5月 03, 2016 14:59:34.76 safeCall@resource://gre/modules/AddonManager.jsm:179:5
+5月 03, 2016 14:59:34.76 makeSafe/<@resource://gre/modules/AddonManager.jsm:195:25
+5月 03, 2016 14:59:34.76 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:933:23
+5月 03, 2016 14:59:34.76 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:812:7
+5月 03, 2016 14:59:34.76 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:11
+5月 03, 2016 14:59:34.77 
+5月 03, 2016 14:59:34.77 *************************
+5月 03, 2016 14:59:34.83 *************************
+5月 03, 2016 14:59:34.83 A coding exception was thrown and uncaught in a Task.
+5月 03, 2016 14:59:34.83 
+5月 03, 2016 14:59:34.83 Full message: TypeError: aAddon._installLocation is undefined
+5月 03, 2016 14:59:34.83 Full stack: shouldVerifySignedState@resource://gre/modules/addons/XPIProvider.jsm:1662:1
+5月 03, 2016 14:59:34.83 verifyZipSignedState@resource://gre/modules/addons/XPIProvider.jsm:1693:8
+5月 03, 2016 14:59:34.83 loadManifestFromZipReader<@resource://gre/modules/addons/XPIProvider.jsm:1426:29
+5月 03, 2016 14:59:34.83 TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+5月 03, 2016 14:59:34.84 TaskImpl@resource://gre/modules/Task.jsm:276:3
+5月 03, 2016 14:59:34.84 createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+5月 03, 2016 14:59:34.84 loadManifestFromZipFile<@resource://gre/modules/addons/XPIProvider.jsm:1451:26
+5月 03, 2016 14:59:34.84 TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+5月 03, 2016 14:59:34.84 TaskImpl@resource://gre/modules/Task.jsm:276:3
+5月 03, 2016 14:59:34.84 createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+5月 03, 2016 14:59:34.84 loadManifestFromFile@resource://gre/modules/addons/XPIProvider.jsm:1461:12
+5月 03, 2016 14:59:34.84 AddonInstaller.InstallerService._shouldInstall/<@resource://addoninstaller/installerService.js:341:49
+5月 03, 2016 14:59:34.84 safeCall@resource://gre/modules/AddonManager.jsm:179:5
+5月 03, 2016 14:59:34.84 makeSafe/<@resource://gre/modules/AddonManager.jsm:195:25
+5月 03, 2016 14:59:34.84 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:933:23
+5月 03, 2016 14:59:34.84 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:812:7
+5月 03, 2016 14:59:34.85 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:11
+5月 03, 2016 14:59:34.85 
+5月 03, 2016 14:59:34.85 *************************
+5月 03, 2016 14:59:34.85 *************************
+5月 03, 2016 14:59:34.85 A coding exception was thrown and uncaught in a Task.
+5月 03, 2016 14:59:34.85 
+5月 03, 2016 14:59:34.85 Full message: TypeError: aAddon._installLocation is undefined
+5月 03, 2016 14:59:34.85 Full stack: shouldVerifySignedState@resource://gre/modules/addons/XPIProvider.jsm:1662:1
+5月 03, 2016 14:59:34.85 verifyZipSignedState@resource://gre/modules/addons/XPIProvider.jsm:1693:8
+5月 03, 2016 14:59:34.85 loadManifestFromZipReader<@resource://gre/modules/addons/XPIProvider.jsm:1426:29
+5月 03, 2016 14:59:34.85 TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+5月 03, 2016 14:59:34.85 TaskImpl@resource://gre/modules/Task.jsm:276:3
+5月 03, 2016 14:59:34.85 createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+5月 03, 2016 14:59:34.85 loadManifestFromZipFile<@resource://gre/modules/addons/XPIProvider.jsm:1451:26
+5月 03, 2016 14:59:34.86 TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+5月 03, 2016 14:59:34.86 TaskImpl@resource://gre/modules/Task.jsm:276:3
+5月 03, 2016 14:59:34.86 createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+5月 03, 2016 14:59:34.86 loadManifestFromFile@resource://gre/modules/addons/XPIProvider.jsm:1461:12
+5月 03, 2016 14:59:34.86 AddonInstaller.InstallerService._shouldInstall/<@resource://addoninstaller/installerService.js:341:49
+5月 03, 2016 14:59:34.86 safeCall@resource://gre/modules/AddonManager.jsm:179:5
+5月 03, 2016 14:59:34.86 makeSafe/<@resource://gre/modules/AddonManager.jsm:195:25
+5月 03, 2016 14:59:34.86 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:933:23
+5月 03, 2016 14:59:34.86 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:812:7
+5月 03, 2016 14:59:34.86 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:11
+5月 03, 2016 14:59:34.86 
+5月 03, 2016 14:59:34.86 *************************
+5月 03, 2016 14:59:34.87 *************************
+5月 03, 2016 14:59:34.87 A coding exception was thrown and uncaught in a Task.
+5月 03, 2016 14:59:34.87 
+5月 03, 2016 14:59:34.87 Full message: TypeError: aAddon._installLocation is undefined
+5月 03, 2016 14:59:34.87 Full stack: shouldVerifySignedState@resource://gre/modules/addons/XPIProvider.jsm:1662:1
+5月 03, 2016 14:59:34.87 verifyZipSignedState@resource://gre/modules/addons/XPIProvider.jsm:1693:8
+5月 03, 2016 14:59:34.87 loadManifestFromZipReader<@resource://gre/modules/addons/XPIProvider.jsm:1426:29
+5月 03, 2016 14:59:34.87 TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+5月 03, 2016 14:59:34.87 TaskImpl@resource://gre/modules/Task.jsm:276:3
+5月 03, 2016 14:59:34.87 createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+5月 03, 2016 14:59:34.87 loadManifestFromZipFile<@resource://gre/modules/addons/XPIProvider.jsm:1451:26
+5月 03, 2016 14:59:34.87 TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+5月 03, 2016 14:59:34.87 TaskImpl@resource://gre/modules/Task.jsm:276:3
+5月 03, 2016 14:59:34.87 createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+5月 03, 2016 14:59:34.88 loadManifestFromFile@resource://gre/modules/addons/XPIProvider.jsm:1461:12
+5月 03, 2016 14:59:34.88 AddonInstaller.InstallerService._shouldInstall/<@resource://addoninstaller/installerService.js:341:49
+5月 03, 2016 14:59:34.88 safeCall@resource://gre/modules/AddonManager.jsm:179:5
+5月 03, 2016 14:59:34.88 makeSafe/<@resource://gre/modules/AddonManager.jsm:195:25
+5月 03, 2016 14:59:34.88 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:933:23
+5月 03, 2016 14:59:34.88 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:812:7
+5月 03, 2016 14:59:34.88 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:11
+5月 03, 2016 14:59:34.88 
+5月 03, 2016 14:59:34.88 *************************
+5月 03, 2016 14:59:34.88 *************************
+5月 03, 2016 14:59:34.88 A coding exception was thrown and uncaught in a Task.
+5月 03, 2016 14:59:34.89 
+5月 03, 2016 14:59:34.89 Full message: TypeError: aAddon._installLocation is undefined
+5月 03, 2016 14:59:34.89 Full stack: shouldVerifySignedState@resource://gre/modules/addons/XPIProvider.jsm:1662:1
+5月 03, 2016 14:59:34.89 verifyZipSignedState@resource://gre/modules/addons/XPIProvider.jsm:1693:8
+5月 03, 2016 14:59:34.89 loadManifestFromZipReader<@resource://gre/modules/addons/XPIProvider.jsm:1426:29
+5月 03, 2016 14:59:34.89 TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+5月 03, 2016 14:59:34.89 TaskImpl@resource://gre/modules/Task.jsm:276:3
+5月 03, 2016 14:59:34.89 createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+5月 03, 2016 14:59:34.89 loadManifestFromZipFile<@resource://gre/modules/addons/XPIProvider.jsm:1451:26
+5月 03, 2016 14:59:34.89 TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+5月 03, 2016 14:59:34.89 TaskImpl@resource://gre/modules/Task.jsm:276:3
+5月 03, 2016 14:59:34.89 createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+5月 03, 2016 14:59:34.89 loadManifestFromFile@resource://gre/modules/addons/XPIProvider.jsm:1461:12
+5月 03, 2016 14:59:34.90 AddonInstaller.InstallerService._shouldInstall/<@resource://addoninstaller/installerService.js:341:49
+5月 03, 2016 14:59:34.90 safeCall@resource://gre/modules/AddonManager.jsm:179:5
+5月 03, 2016 14:59:34.90 makeSafe/<@resource://gre/modules/AddonManager.jsm:195:25
+5月 03, 2016 14:59:34.90 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:933:23
+5月 03, 2016 14:59:34.90 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:812:7
+5月 03, 2016 14:59:34.90 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:11
+5月 03, 2016 14:59:34.90 
+5月 03, 2016 14:59:34.90 *************************
+5月 03, 2016 14:59:34.90 *************************
+5月 03, 2016 14:59:34.90 A coding exception was thrown and uncaught in a Task.
+5月 03, 2016 14:59:34.90 
+5月 03, 2016 14:59:34.90 Full message: TypeError: aAddon._installLocation is undefined
+5月 03, 2016 14:59:34.91 Full stack: shouldVerifySignedState@resource://gre/modules/addons/XPIProvider.jsm:1662:1
+5月 03, 2016 14:59:34.91 verifyZipSignedState@resource://gre/modules/addons/XPIProvider.jsm:1693:8
+5月 03, 2016 14:59:34.91 loadManifestFromZipReader<@resource://gre/modules/addons/XPIProvider.jsm:1426:29
+5月 03, 2016 14:59:34.91 TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+5月 03, 2016 14:59:34.91 TaskImpl@resource://gre/modules/Task.jsm:276:3
+5月 03, 2016 14:59:34.91 createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+5月 03, 2016 14:59:34.91 loadManifestFromZipFile<@resource://gre/modules/addons/XPIProvider.jsm:1451:26
+5月 03, 2016 14:59:34.91 TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+5月 03, 2016 14:59:34.91 TaskImpl@resource://gre/modules/Task.jsm:276:3
+5月 03, 2016 14:59:34.91 createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+5月 03, 2016 14:59:34.91 loadManifestFromFile@resource://gre/modules/addons/XPIProvider.jsm:1461:12
+5月 03, 2016 14:59:34.91 AddonInstaller.InstallerService._shouldInstall/<@resource://addoninstaller/installerService.js:341:49
+5月 03, 2016 14:59:34.91 safeCall@resource://gre/modules/AddonManager.jsm:179:5
+5月 03, 2016 14:59:34.91 makeSafe/<@resource://gre/modules/AddonManager.jsm:195:25
+5月 03, 2016 14:59:34.92 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:933:23
+5月 03, 2016 14:59:34.92 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:812:7
+5月 03, 2016 14:59:34.92 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:11
+5月 03, 2016 14:59:34.92 
+5月 03, 2016 14:59:34.92 *************************
+5月 03, 2016 14:59:34.92 *************************
+5月 03, 2016 14:59:34.92 A coding exception was thrown and uncaught in a Task.
+5月 03, 2016 14:59:34.92 
+5月 03, 2016 14:59:34.92 Full message: TypeError: aAddon._installLocation is undefined
+5月 03, 2016 14:59:34.92 Full stack: shouldVerifySignedState@resource://gre/modules/addons/XPIProvider.jsm:1662:1
+5月 03, 2016 14:59:34.92 verifyZipSignedState@resource://gre/modules/addons/XPIProvider.jsm:1693:8
+5月 03, 2016 14:59:34.92 loadManifestFromZipReader<@resource://gre/modules/addons/XPIProvider.jsm:1426:29
+5月 03, 2016 14:59:34.93 TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+5月 03, 2016 14:59:34.93 TaskImpl@resource://gre/modules/Task.jsm:276:3
+5月 03, 2016 14:59:34.93 createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+5月 03, 2016 14:59:34.93 loadManifestFromZipFile<@resource://gre/modules/addons/XPIProvider.jsm:1451:26
+5月 03, 2016 14:59:34.93 TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+5月 03, 2016 14:59:34.93 TaskImpl@resource://gre/modules/Task.jsm:276:3
+5月 03, 2016 14:59:34.93 createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+5月 03, 2016 14:59:34.93 loadManifestFromFile@resource://gre/modules/addons/XPIProvider.jsm:1461:12
+5月 03, 2016 14:59:34.93 AddonInstaller.InstallerService._shouldInstall/<@resource://addoninstaller/installerService.js:341:49
+5月 03, 2016 14:59:34.94 safeCall@resource://gre/modules/AddonManager.jsm:179:5
+5月 03, 2016 14:59:34.94 makeSafe/<@resource://gre/modules/AddonManager.jsm:195:25
+5月 03, 2016 14:59:34.94 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:933:23
+5月 03, 2016 14:59:34.94 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:812:7
+5月 03, 2016 14:59:34.94 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:11
+5月 03, 2016 14:59:34.94 
+5月 03, 2016 14:59:34.94 *************************
+5月 03, 2016 14:59:34.94 *************************
+5月 03, 2016 14:59:34.94 A coding exception was thrown and uncaught in a Task.
+5月 03, 2016 14:59:34.95 
+5月 03, 2016 14:59:34.95 Full message: TypeError: aAddon._installLocation is undefined
+5月 03, 2016 14:59:34.95 Full stack: shouldVerifySignedState@resource://gre/modules/addons/XPIProvider.jsm:1662:1
+5月 03, 2016 14:59:34.95 verifyZipSignedState@resource://gre/modules/addons/XPIProvider.jsm:1693:8
+5月 03, 2016 14:59:34.95 loadManifestFromZipReader<@resource://gre/modules/addons/XPIProvider.jsm:1426:29
+5月 03, 2016 14:59:34.95 TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+5月 03, 2016 14:59:34.95 TaskImpl@resource://gre/modules/Task.jsm:276:3
+5月 03, 2016 14:59:34.95 createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+5月 03, 2016 14:59:34.96 loadManifestFromZipFile<@resource://gre/modules/addons/XPIProvider.jsm:1451:26
+5月 03, 2016 14:59:34.96 TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+5月 03, 2016 14:59:34.96 TaskImpl@resource://gre/modules/Task.jsm:276:3
+5月 03, 2016 14:59:34.96 createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+5月 03, 2016 14:59:34.96 loadManifestFromFile@resource://gre/modules/addons/XPIProvider.jsm:1461:12
+5月 03, 2016 14:59:34.96 AddonInstaller.InstallerService._shouldInstall/<@resource://addoninstaller/installerService.js:341:49
+5月 03, 2016 14:59:34.96 safeCall@resource://gre/modules/AddonManager.jsm:179:5
+5月 03, 2016 14:59:34.96 makeSafe/<@resource://gre/modules/AddonManager.jsm:195:25
+5月 03, 2016 14:59:34.96 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:933:23
+5月 03, 2016 14:59:34.97 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:812:7
+5月 03, 2016 14:59:34.97 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:11
+5月 03, 2016 14:59:34.97 
+5月 03, 2016 14:59:34.97 *************************
+5月 03, 2016 14:59:34.97 *************************
+5月 03, 2016 14:59:34.97 A coding exception was thrown and uncaught in a Task.
+5月 03, 2016 14:59:34.97 
+5月 03, 2016 14:59:34.97 Full message: TypeError: aAddon._installLocation is undefined
+5月 03, 2016 14:59:34.97 Full stack: shouldVerifySignedState@resource://gre/modules/addons/XPIProvider.jsm:1662:1
+5月 03, 2016 14:59:34.97 verifyZipSignedState@resource://gre/modules/addons/XPIProvider.jsm:1693:8
+5月 03, 2016 14:59:34.97 loadManifestFromZipReader<@resource://gre/modules/addons/XPIProvider.jsm:1426:29
+5月 03, 2016 14:59:34.97 TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+5月 03, 2016 14:59:34.98 TaskImpl@resource://gre/modules/Task.jsm:276:3
+5月 03, 2016 14:59:34.98 createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+5月 03, 2016 14:59:34.98 loadManifestFromZipFile<@resource://gre/modules/addons/XPIProvider.jsm:1451:26
+5月 03, 2016 14:59:34.98 TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+5月 03, 2016 14:59:34.98 TaskImpl@resource://gre/modules/Task.jsm:276:3
+5月 03, 2016 14:59:34.98 createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+5月 03, 2016 14:59:34.98 loadManifestFromFile@resource://gre/modules/addons/XPIProvider.jsm:1461:12
+5月 03, 2016 14:59:34.98 AddonInstaller.InstallerService._shouldInstall/<@resource://addoninstaller/installerService.js:341:49
+5月 03, 2016 14:59:34.98 safeCall@resource://gre/modules/AddonManager.jsm:179:5
+5月 03, 2016 14:59:34.98 makeSafe/<@resource://gre/modules/AddonManager.jsm:195:25
+5月 03, 2016 14:59:34.98 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:933:23
+5月 03, 2016 14:59:34.98 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:812:7
+5月 03, 2016 14:59:34.98 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:11
+5月 03, 2016 14:59:34.98 
+5月 03, 2016 14:59:34.99 *************************
+5月 03, 2016 14:59:47.09 hashcompleter: cancelling request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=46.0&pver=2.2
+5月 03, 2016 14:59:47.09 hashcompleter: notifying failure
+5月 03, 2016 14:59:48.16 1462258788164	FirefoxAccounts	ERROR	error POSTing /account/device: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 03, 2016 14:59:48.16 1462258788164	FirefoxAccounts	ERROR	error POSTing /account/device: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 03, 2016 14:59:48.16 1462258788165	FirefoxAccounts	ERROR	device registration failed: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 03, 2016 14:59:48.16 1462258788165	FirefoxAccounts	ERROR	device registration failed: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 03, 2016 14:59:48.22 1462258788225	FirefoxAccounts	ERROR	error POSTing /account/device: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 03, 2016 14:59:48.22 1462258788225	FirefoxAccounts	ERROR	error POSTing /account/device: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 03, 2016 14:59:48.22 1462258788225	FirefoxAccounts	ERROR	device registration failed: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 03, 2016 14:59:48.22 1462258788225	FirefoxAccounts	ERROR	device registration failed: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 03, 2016 14:59:48.49 1462258788495	FirefoxAccounts	ERROR	error POSTing /account/device: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 03, 2016 14:59:48.49 1462258788495	FirefoxAccounts	ERROR	error POSTing /account/device: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 03, 2016 14:59:48.49 1462258788496	FirefoxAccounts	ERROR	device registration failed: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 03, 2016 14:59:48.49 1462258788496	FirefoxAccounts	ERROR	device registration failed: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 03, 2016 15:00:20.77 console.error: commonfix: 
+5月 03, 2016 15:00:21.62   Message: ReferenceError: reason is not defined
+5月 03, 2016 15:00:21.62   Stack:
+5月 03, 2016 15:00:21.62     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/commonfix/lib/main.js:316:1
+5月 03, 2016 15:00:21.63 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+5月 03, 2016 15:00:21.63 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+5月 03, 2016 15:00:21.63 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+5月 03, 2016 15:00:21.63 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+5月 03, 2016 15:00:21.63 unload@resource://gre/modules/commonjs/toolkit/loader.js:791:3
+5月 03, 2016 15:00:21.63 shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Users/Administrator/AppData/Roaming/Mozilla/Firefox/Profiles/hs0hr1ub.default/extensions/commonfix@mozillaonline.com.xpi!/bootstrap.js:303:5
+5月 03, 2016 15:00:21.63 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4657:9
+5月 03, 2016 15:00:21.63 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2751:13
+5月 03, 2016 15:00:21.63 
+
+5月 05, 2016 10:22:41.56 NEW SESSION
+5月 05, 2016 10:22:41.56 console.error: commonfix: 
+5月 05, 2016 10:22:41.59   Message: ReferenceError: reason is not defined
+5月 05, 2016 10:22:41.59   Stack:
+5月 05, 2016 10:22:41.60     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/commonfix/lib/main.js:316:1
+5月 05, 2016 10:22:41.60 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+5月 05, 2016 10:22:41.60 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+5月 05, 2016 10:22:41.60 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+5月 05, 2016 10:22:41.60 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+5月 05, 2016 10:22:41.60 unload@resource://gre/modules/commonjs/toolkit/loader.js:791:3
+5月 05, 2016 10:22:41.60 shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Users/Administrator/AppData/Roaming/Mozilla/Firefox/Profiles/hs0hr1ub.default/extensions/commonfix@mozillaonline.com.xpi!/bootstrap.js:303:5
+5月 05, 2016 10:22:41.60 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4657:9
+5月 05, 2016 10:22:41.60 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2751:13
+5月 05, 2016 10:22:41.60 
+5月 05, 2016 10:22:41.77 hashcompleter: notifying failure
+
+5月 05, 2016 14:47:52.68 NEW SESSION
+5月 05, 2016 14:47:52.68 console.error: commonfix: 
+5月 05, 2016 14:47:52.70   Message: ReferenceError: reason is not defined
+5月 05, 2016 14:47:52.70   Stack:
+5月 05, 2016 14:47:52.70     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/commonfix/lib/main.js:316:1
+5月 05, 2016 14:47:52.70 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+5月 05, 2016 14:47:52.70 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+5月 05, 2016 14:47:52.70 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+5月 05, 2016 14:47:52.70 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+5月 05, 2016 14:47:52.70 unload@resource://gre/modules/commonjs/toolkit/loader.js:791:3
+5月 05, 2016 14:47:52.71 shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Users/Administrator/AppData/Roaming/Mozilla/Firefox/Profiles/hs0hr1ub.default/extensions/commonfix@mozillaonline.com.xpi!/bootstrap.js:303:5
+5月 05, 2016 14:47:52.71 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4657:9
+5月 05, 2016 14:47:52.71 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2751:13
+5月 05, 2016 14:47:52.71 
+5月 05, 2016 14:47:53.02 hashcompleter: notifying failure
+
+5月 06, 2016 09:17:54.74 NEW SESSION
+5月 06, 2016 09:17:54.74 hashcompleter: cancelling request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=46.0&pver=2.2
+5月 06, 2016 09:17:54.75 hashcompleter: notifying failure
+5月 06, 2016 09:17:56.63 1462497476631	FirefoxAccounts	ERROR	error POSTing /account/device: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 06, 2016 09:17:56.63 1462497476631	FirefoxAccounts	ERROR	error POSTing /account/device: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 06, 2016 09:17:56.63 1462497476634	FirefoxAccounts	ERROR	device registration failed: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 06, 2016 09:17:56.63 1462497476634	FirefoxAccounts	ERROR	device registration failed: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 06, 2016 09:17:56.94 1462497476943	FirefoxAccounts	ERROR	error POSTing /account/device: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 06, 2016 09:17:56.94 1462497476943	FirefoxAccounts	ERROR	error POSTing /account/device: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 06, 2016 09:17:56.94 1462497476943	FirefoxAccounts	ERROR	device registration failed: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 06, 2016 09:17:56.94 1462497476943	FirefoxAccounts	ERROR	device registration failed: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 06, 2016 09:17:57.17 1462497477173	FirefoxAccounts	ERROR	error POSTing /account/device: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 06, 2016 09:17:57.17 1462497477173	FirefoxAccounts	ERROR	error POSTing /account/device: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 06, 2016 09:17:57.17 1462497477173	FirefoxAccounts	ERROR	device registration failed: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 06, 2016 09:17:57.17 1462497477173	FirefoxAccounts	ERROR	device registration failed: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 06, 2016 09:19:35.64 console.error: commonfix: 
+5月 06, 2016 09:19:35.64   Message: ReferenceError: reason is not defined
+5月 06, 2016 09:19:35.64   Stack:
+5月 06, 2016 09:19:35.64     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/commonfix/lib/main.js:316:1
+5月 06, 2016 09:19:35.64 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+5月 06, 2016 09:19:35.64 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+5月 06, 2016 09:19:35.64 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+5月 06, 2016 09:19:35.64 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+5月 06, 2016 09:19:35.64 unload@resource://gre/modules/commonjs/toolkit/loader.js:791:3
+5月 06, 2016 09:19:35.64 shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Users/Administrator/AppData/Roaming/Mozilla/Firefox/Profiles/hs0hr1ub.default/extensions/commonfix@mozillaonline.com.xpi!/bootstrap.js:303:5
+5月 06, 2016 09:19:35.64 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4657:9
+5月 06, 2016 09:19:35.64 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2751:13
+5月 06, 2016 09:19:35.64 
+
+5月 08, 2016 21:53:58.99 NEW SESSION
+5月 08, 2016 21:53:58.99 hashcompleter: cancelling request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=46.0&pver=2.2
+5月 08, 2016 21:53:59.02 hashcompleter: notifying failure
+5月 08, 2016 21:54:03.15 1462715643152	FirefoxAccounts	ERROR	error POSTing /account/device: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 08, 2016 21:54:03.15 1462715643152	FirefoxAccounts	ERROR	error POSTing /account/device: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 08, 2016 21:54:03.15 1462715643153	FirefoxAccounts	ERROR	device registration failed: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 08, 2016 21:54:03.15 1462715643153	FirefoxAccounts	ERROR	device registration failed: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 08, 2016 21:54:03.24 1462715643248	FirefoxAccounts	ERROR	error POSTing /account/device: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 08, 2016 21:54:03.25 1462715643248	FirefoxAccounts	ERROR	error POSTing /account/device: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 08, 2016 21:54:03.25 1462715643249	FirefoxAccounts	ERROR	device registration failed: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 08, 2016 21:54:03.25 1462715643249	FirefoxAccounts	ERROR	device registration failed: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 08, 2016 21:54:04.53 1462715644530	FirefoxAccounts	ERROR	error POSTing /account/device: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 08, 2016 21:54:04.53 1462715644530	FirefoxAccounts	ERROR	error POSTing /account/device: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 08, 2016 21:54:04.53 1462715644530	FirefoxAccounts	ERROR	device registration failed: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 08, 2016 21:54:04.53 1462715644530	FirefoxAccounts	ERROR	device registration failed: {"code":500,"errno":999,"error":"Internal Server Error","message":"An internal server error occurred","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+5月 08, 2016 21:54:19.59 console.error: commonfix: 
+5月 08, 2016 21:54:19.59   Message: ReferenceError: reason is not defined
+5月 08, 2016 21:54:19.59   Stack:
+5月 08, 2016 21:54:19.59     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/commonfix/lib/main.js:316:1
+5月 08, 2016 21:54:19.59 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+5月 08, 2016 21:54:19.59 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+5月 08, 2016 21:54:19.59 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+5月 08, 2016 21:54:19.60 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+5月 08, 2016 21:54:19.60 unload@resource://gre/modules/commonjs/toolkit/loader.js:791:3
+5月 08, 2016 21:54:19.60 shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Users/Administrator/AppData/Roaming/Mozilla/Firefox/Profiles/hs0hr1ub.default/extensions/commonfix@mozillaonline.com.xpi!/bootstrap.js:303:5
+5月 08, 2016 21:54:19.60 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4657:9
+5月 08, 2016 21:54:19.60 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2751:13
+5月 08, 2016 21:54:19.60 
+
+5月 15, 2016 11:51:11.25 NEW SESSION
+5月 15, 2016 11:51:11.25 console.error: commonfix: 
+5月 15, 2016 11:51:11.27   Message: ReferenceError: reason is not defined
+5月 15, 2016 11:51:11.27   Stack:
+5月 15, 2016 11:51:11.27     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/commonfix/lib/main.js:316:1
+5月 15, 2016 11:51:11.27 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+5月 15, 2016 11:51:11.28 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+5月 15, 2016 11:51:11.28 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+5月 15, 2016 11:51:11.28 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+5月 15, 2016 11:51:11.28 unload@resource://gre/modules/commonjs/toolkit/loader.js:791:3
+5月 15, 2016 11:51:11.28 shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Users/Administrator/AppData/Roaming/Mozilla/Firefox/Profiles/hs0hr1ub.default/extensions/commonfix@mozillaonline.com.xpi!/bootstrap.js:303:5
+5月 15, 2016 11:51:11.28 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4657:9
+5月 15, 2016 11:51:11.28 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2751:13
+5月 15, 2016 11:51:11.28 waitForSyncCallback@resource://services-common/async.js:102:7
+5月 15, 2016 11:51:11.28 Res__request@resource://services-sync/resource.js:398:14
+5月 15, 2016 11:51:11.28 Res_get@resource://services-sync/resource.js:422:12
+5月 15, 2016 11:51:11.28 RecordMgr_import@resource://services-sync/record.js:231:23
+5月 15, 2016 11:51:11.28 RecordMgr_get@resource://services-sync/record.js:252:12
+5月 15, 2016 11:51:11.28 _remoteSetup@resource://gre/modules/services-sync/service.js:1075:21
+5月 15, 2016 11:51:11.28 verifyLogin@resource://gre/modules/services-sync/service.js:724:15
+5月 15, 2016 11:51:11.28 onNotify@resource://gre/modules/services-sync/service.js:990:12
+5月 15, 2016 11:51:11.28 WrappedNotify@resource://services-sync/util.js:146:21
+5月 15, 2016 11:51:11.29 WrappedLock@resource://services-sync/util.js:101:16
+5月 15, 2016 11:51:11.29 WrappedCatch@resource://services-sync/util.js:75:16
+5月 15, 2016 11:51:11.29 login@resource://gre/modules/services-sync/service.js:1001:12
+5月 15, 2016 11:51:11.29 sync/<@resource://gre/modules/services-sync/service.js:1253:14
+5月 15, 2016 11:51:11.29 WrappedCatch@resource://services-sync/util.js:75:16
+5月 15, 2016 11:51:11.29 sync@resource://gre/modules/services-sync/service.js:1249:5
+5月 15, 2016 11:51:11.29 
+5月 15, 2016 11:51:11.42 1463284271422	Sync.ErrorHandler	ERROR	Sync encountered a login error
+
+5月 18, 2016 10:54:36.03 NEW SESSION
+5月 18, 2016 10:54:36.03 console.error: commonfix: 
+5月 18, 2016 10:54:36.05   Message: ReferenceError: reason is not defined
+5月 18, 2016 10:54:36.06   Stack:
+5月 18, 2016 10:54:36.06     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/commonfix/lib/main.js:316:1
+5月 18, 2016 10:54:36.06 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+5月 18, 2016 10:54:36.06 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+5月 18, 2016 10:54:36.06 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+5月 18, 2016 10:54:36.06 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+5月 18, 2016 10:54:36.06 unload@resource://gre/modules/commonjs/toolkit/loader.js:791:3
+5月 18, 2016 10:54:36.06 shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Users/Administrator/AppData/Roaming/Mozilla/Firefox/Profiles/hs0hr1ub.default/extensions/commonfix@mozillaonline.com.xpi!/bootstrap.js:303:5
+5月 18, 2016 10:54:36.06 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4657:9
+5月 18, 2016 10:54:36.06 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2751:13
+5月 18, 2016 10:54:36.06 
+
+5月 26, 2016 12:31:57.39 NEW SESSION
+5月 26, 2016 12:31:57.39 console.error: commonfix: 
+5月 26, 2016 12:31:57.41   Message: ReferenceError: reason is not defined
+5月 26, 2016 12:31:57.41   Stack:
+5月 26, 2016 12:31:57.41     exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/commonfix/lib/main.js:316:1
+5月 26, 2016 12:31:57.41 unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:58:7
+5月 26, 2016 12:31:57.41 unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+5月 26, 2016 12:31:57.41 onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+5月 26, 2016 12:31:57.41 Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+5月 26, 2016 12:31:57.41 unload@resource://gre/modules/commonjs/toolkit/loader.js:791:3
+5月 26, 2016 12:31:57.41 shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Users/Administrator/AppData/Roaming/Mozilla/Firefox/Profiles/hs0hr1ub.default/extensions/commonfix@mozillaonline.com.xpi!/bootstrap.js:303:5
+5月 26, 2016 12:31:57.42 this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4657:9
+5月 26, 2016 12:31:57.42 this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2751:13
+5月 26, 2016 12:31:57.42 

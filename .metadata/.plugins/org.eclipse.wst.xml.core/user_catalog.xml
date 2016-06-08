@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <uri name="http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd" uri="file:///F:/安装包/libs/SSH/hibernate-release-5.1.0.Final/project/hibernate-core/src/main/resources/org/hibernate/hibernate-configuration-3.0.dtd"/>
+  <uri name="http://struts.apache.org/dtds/struts-2.3.dtd" uri="file:///F:/安装包/libs/SSH/struts-2.3.24.1/src/core/src/main/resources/struts-2.3.dtd"/>
+  <uri name="http://struts.apache.org/dtds/xwork-validator-1.0.2.dtd" uri="file:///F:/安装包/libs/SSH/struts-2.3.24.1/src/xwork-core/src/main/resources/xwork-validator-1.0.2.dtd"/>
+</catalog>

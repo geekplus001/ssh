@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	
+	<!-- 配置国际化资源文件 -->
+	<constant name="struts.custom.i18n.resources" value="i18n"></constant>
+	
+    <package name="default" namespace="/" extends="struts-default">
+
+		<action name="testValidation" class="com.atguigu.struts2.validation.app.TestValidationAction">
+			<result>/success.jsp</result>
+			
+			<!-- 若验证失败转向的 input -->
+			<result name="input">/validation.jsp</result>
+		</action>
+		
+		<action name="testValidation2" class="com.atguigu.struts2.validation.app.TestValidationAction">
+			<result>/success.jsp</result>
+			
+			<!-- 若验证失败转向的 input -->
+			<result name="input">/validation.jsp</result>
+		</action>
+					
+    </package>
+
+
+</struts>
